@@ -1,4 +1,3 @@
-
 import { Question, ResultType, Theme } from './types';
 
 export const THEMES: Theme[] = [
@@ -160,6 +159,20 @@ export const RESULTS: ResultType[] = [
     oracleText: "Prezado(a) buscador(a), seu sonho revelou o arquétipo da Porta Entreaberta. Este é o símbolo universal das oportunidades psíquicas: algo em você está pronto, mas você ainda não atravessou. Esta porta representa um desejo silencioso de mudança — seja emocional, profissional, afetiva ou espiritual. A porta está aberta, mas você permanece olhando pela fresta. Isso indica cautela, mas também medo. Pergunte a si: Que mudança eu sei que preciso fazer, mas ainda não permito? Escreva essa mudança. A porta só se abre completamente quando você aceita o passo."
   },
 ];
+
+export const FORTUNE_COOKIE_PHRASES = [
+  "A resposta que você procura está na pergunta que você evita fazer.",
+  "O que você resiste, persiste. O que você encara, se transforma.",
+  "Às vezes, perder o caminho é a única forma de encontrar um novo.",
+  "A sombra só existe onde há uma luz que você ainda não acendeu.",
+  "Não confunda o mapa com o território. Seu sonho é o território.",
+  "O silêncio do seu sonho é a sua mais alta canção.",
+  "Para voar, é preciso primeiro aceitar o abismo.",
+  "A chave que você procura está trancada dentro de você mesmo.",
+  "O eco que te assombra é a sua própria voz pedindo para ser ouvida.",
+  "A rachadura na sua armadura é por onde a luz entra.",
+];
+
 
 // Manually mapped based on the prompt's text cues to the 14 Themes
 export const QUESTIONS: Question[] = [
